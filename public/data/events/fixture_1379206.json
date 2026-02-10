@@ -1,0 +1,376 @@
+[
+  {
+    "time": {
+      "elapsed": 9,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 19182,
+      "name": "A. Tuanzebe"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Own Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 32,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 327631,
+      "name": "H. Diarra"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 45,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 270508,
+      "name": "Lesley Ugochukwu"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 19182,
+      "name": "A. Tuanzebe"
+    },
+    "assist": {
+      "id": 20303,
+      "name": "J. Laurent"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 63,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 575,
+      "name": "Florentino"
+    },
+    "assist": {
+      "id": 36927,
+      "name": "Z. Flemming"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 63,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 98936,
+      "name": "L. Foster"
+    },
+    "assist": {
+      "id": 138822,
+      "name": "A. Broja"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 119121,
+      "name": "Trai Hume"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 18886,
+      "name": "Martin Dúbravka"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 37882,
+      "name": "M. Edwards"
+    },
+    "assist": {
+      "id": 161621,
+      "name": "L. Tchaouna"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 70,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 196855,
+      "name": "Jaidon Anthony"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 72,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 336659,
+      "name": "C. Talbi"
+    },
+    "assist": {
+      "id": 22225,
+      "name": "R. Mandava"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 327631,
+      "name": "H. Diarra"
+    },
+    "assist": {
+      "id": 37143,
+      "name": "L. Geertruida"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 336659,
+      "name": "C. Talbi"
+    },
+    "assist": {
+      "id": 284414,
+      "name": "R. Mundle"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 38750,
+      "name": "B. Brobbey"
+    },
+    "assist": {
+      "id": 84087,
+      "name": "W. Isidor"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 196855,
+      "name": "J. Anthony"
+    },
+    "assist": {
+      "id": 22,
+      "name": "J. Bruun Larsen"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 6168,
+      "name": "O. Alderete"
+    },
+    "assist": {
+      "id": 19911,
+      "name": "L. O'Nien"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 1
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 627,
+      "name": "Kyle Walker"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  }
+]

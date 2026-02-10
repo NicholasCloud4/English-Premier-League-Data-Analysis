@@ -1,0 +1,288 @@
+[
+  {
+    "time": {
+      "elapsed": 17,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 18806,
+      "name": "Will Hughes"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 56,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 184226,
+      "name": "Y. Pino"
+    },
+    "assist": {
+      "id": 137303,
+      "name": "E. Guessand"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 2218,
+      "name": "I. Sarr"
+    },
+    "assist": {
+      "id": 137303,
+      "name": "E. Guessand"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 392610,
+      "name": "H. Howell"
+    },
+    "assist": {
+      "id": 383685,
+      "name": "Y. Minteh"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 162007,
+      "name": "M. De Cuyper"
+    },
+    "assist": {
+      "id": 1469,
+      "name": "D. Welbeck"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 356041,
+      "name": "C. Baleba"
+    },
+    "assist": {
+      "id": 278370,
+      "name": "D. Gomez"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 18806,
+      "name": "W. Hughes"
+    },
+    "assist": {
+      "id": 2601,
+      "name": "D. Kamada"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 13736,
+      "name": "Daniel Muñoz"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Time wasting"
+  },
+  {
+    "time": {
+      "elapsed": 82,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 392482,
+      "name": "C. Kostoulas"
+    },
+    "assist": {
+      "id": 305730,
+      "name": "J. Hinshelwood"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 82,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 90590,
+      "name": "G. Rutter"
+    },
+    "assist": {
+      "id": 19030,
+      "name": "M. O'Riley"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "player": {
+      "id": 278370,
+      "name": "Diego Gómez"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 2032,
+      "name": "Jørgen Strand Larsen"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 88,
+      "extra": null
+    },
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "player": {
+      "id": 2218,
+      "name": "I. Sarr"
+    },
+    "assist": {
+      "id": 129711,
+      "name": "B. Johnson"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  }
+]

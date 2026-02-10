@@ -1,0 +1,332 @@
+[
+  {
+    "time": {
+      "elapsed": 26,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 22090,
+      "name": "William Saliba"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 39,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 327631,
+      "name": "Habib Diarra"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 40,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 38750,
+      "name": "Brian Brobbey"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 42,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 47315,
+      "name": "M. Zubimendi"
+    },
+    "assist": {
+      "id": 1946,
+      "name": "L. Trossard"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 60,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "assist": {
+      "id": 127769,
+      "name": "G. Martinelli"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 60,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 643,
+      "name": "Gabriel Jesus"
+    },
+    "assist": {
+      "id": 18979,
+      "name": "V. Gyökeres"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 64,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 336659,
+      "name": "C. Talbi"
+    },
+    "assist": {
+      "id": 284414,
+      "name": "R. Mundle"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 18979,
+      "name": "V. Gyokeres"
+    },
+    "assist": {
+      "id": 978,
+      "name": "K. Havertz"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 157052,
+      "name": "R. Calafiori"
+    },
+    "assist": {
+      "id": 127817,
+      "name": "P. Hincapie"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 978,
+      "name": "K. Havertz"
+    },
+    "assist": {
+      "id": 19586,
+      "name": "E. Eze"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 365331,
+      "name": "N. Sadiki"
+    },
+    "assist": {
+      "id": 37143,
+      "name": "L. Geertruida"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 38750,
+      "name": "B. Brobbey"
+    },
+    "assist": {
+      "id": 84087,
+      "name": "W. Isidor"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://media.api-sports.io/football/teams/746.png"
+    },
+    "player": {
+      "id": 119121,
+      "name": "T. Hume"
+    },
+    "assist": {
+      "id": 311543,
+      "name": "N. Angulo"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 89,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 1946,
+      "name": "L. Trossard"
+    },
+    "assist": {
+      "id": 30407,
+      "name": "C. Norgaard"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 18979,
+      "name": "V. Gyokeres"
+    },
+    "assist": {
+      "id": 127769,
+      "name": "G. Martinelli"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]

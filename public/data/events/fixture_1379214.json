@@ -1,0 +1,310 @@
+[
+  {
+    "time": {
+      "elapsed": 26,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 19201,
+      "name": "J. Bogle"
+    },
+    "assist": {
+      "id": 129142,
+      "name": "I. Gruev"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 30,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 48389,
+      "name": "N. Okafor"
+    },
+    "assist": {
+      "id": 19760,
+      "name": "J. Justin"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 49,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 18766,
+      "name": "D. Calvert-Lewin"
+    },
+    "assist": {
+      "id": 129142,
+      "name": "I. Gruev"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 54,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 9366,
+      "name": "Igor Jesus"
+    },
+    "assist": {
+      "id": 199089,
+      "name": "L. Lucca"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 54,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 6056,
+      "name": "N. Dominguez"
+    },
+    "assist": {
+      "id": 284428,
+      "name": "O. Hutchinson"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 48389,
+      "name": "Noah Okafor"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 62,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 22149,
+      "name": "Ibrahim Sangaré"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 2298,
+      "name": "C. Hudson-Odoi"
+    },
+    "assist": {
+      "id": 48648,
+      "name": "D. Ndoye"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 18746,
+      "name": "M. Gibbs-White"
+    },
+    "assist": {
+      "id": 19305,
+      "name": "R. Yates"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 76,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 329357,
+      "name": "Z. Abbott"
+    },
+    "assist": {
+      "id": 163069,
+      "name": "L. Netz"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 78,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 50739,
+      "name": "B. Aaronson"
+    },
+    "assist": {
+      "id": 19329,
+      "name": "D. James"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 82,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 48389,
+      "name": "N. Okafor"
+    },
+    "assist": {
+      "id": 18901,
+      "name": "S. Longstaff"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 199089,
+      "name": "L. Lucca"
+    },
+    "assist": {
+      "id": 284428,
+      "name": "O. Hutchinson"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 6
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 19201,
+      "name": "J. Bogle"
+    },
+    "assist": {
+      "id": 1408,
+      "name": "S. Bornauw"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  }
+]

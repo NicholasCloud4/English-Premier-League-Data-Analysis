@@ -1,0 +1,376 @@
+[
+  {
+    "time": {
+      "elapsed": 18,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 2990,
+      "name": "Idrissa Gueye"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 18,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 2165,
+      "name": "V. Mykolenko"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Own Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 56,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 895,
+      "name": "James Garner"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 65,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 2165,
+      "name": "Vitaliy Mykolenko"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 131,
+      "name": "Jorge Cuenca"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 343684,
+      "name": "T. Barry"
+    },
+    "assist": {
+      "id": 125743,
+      "name": "Beto"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 405360,
+      "name": "H. Armstrong"
+    },
+    "assist": {
+      "id": 334037,
+      "name": "T. George"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 1696,
+      "name": "S. Chukwueze"
+    },
+    "assist": {
+      "id": 237819,
+      "name": "Kevin"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 2887,
+      "name": "R. Jimenez"
+    },
+    "assist": {
+      "id": 195106,
+      "name": "Rodrigo Muniz"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 148099,
+      "name": "K. Dewsbury-Hall"
+    },
+    "assist": {
+      "id": 2165,
+      "name": "V. Mykolenko"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 2920,
+      "name": "T. Castagne"
+    },
+    "assist": {
+      "id": 657,
+      "name": "K. Tete"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "player": {
+      "id": 1161,
+      "name": "E. Smith Rowe"
+    },
+    "assist": {
+      "id": 278133,
+      "name": "O. Bobb"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 1438,
+      "name": "B. Leno"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Own Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 2165,
+      "name": "V. Mykolenko"
+    },
+    "assist": {
+      "id": 17661,
+      "name": "J. Branthwaite"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 88,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 270139,
+      "name": "Jake O'Brien"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 7
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 2932,
+      "name": "Jordan Pickford"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Time wasting"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 5
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 148099,
+      "name": "K. Dewsbury-Hall"
+    },
+    "assist": {
+      "id": 284500,
+      "name": "T. Iroegbunam"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  }
+]

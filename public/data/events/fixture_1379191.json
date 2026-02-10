@@ -1,0 +1,244 @@
+[
+  {
+    "time": {
+      "elapsed": 12,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 9366,
+      "name": "Igor Jesus"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 37,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 1119,
+      "name": "K. Ajer"
+    },
+    "assist": {
+      "id": 36922,
+      "name": "S. van den Berg"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 37,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 15908,
+      "name": "M. Damsgaard"
+    },
+    "assist": {
+      "id": 284797,
+      "name": "D. Ouattara"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 6056,
+      "name": "N. Dominguez"
+    },
+    "assist": {
+      "id": 284428,
+      "name": "O. Hutchinson"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 263538,
+      "name": "Yehor Yarmolyuk"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 67,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 19346,
+      "name": "R. Henry"
+    },
+    "assist": {
+      "id": 44871,
+      "name": "A. Hickey"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 68,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 9366,
+      "name": "Igor Jesus"
+    },
+    "assist": {
+      "id": 8598,
+      "name": "T. Awoniyi"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 79,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 8598,
+      "name": "T. Awoniyi"
+    },
+    "assist": {
+      "id": 18746,
+      "name": "M. Gibbs-White"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 263538,
+      "name": "Y. Yarmolyuk"
+    },
+    "assist": {
+      "id": 292,
+      "name": "J. Henderson"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 342022,
+      "name": "M. Kayode"
+    },
+    "assist": {
+      "id": 106725,
+      "name": "K. Lewis-Potter"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 2298,
+      "name": "C. Hudson-Odoi"
+    },
+    "assist": {
+      "id": 67943,
+      "name": "Morato"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "time": {
+      "elapsed": 22,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19170,
+      "name": "M. Rogers"
+    },
+    "assist": {
+      "id": 18,
+      "name": "J. Sancho"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 35,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 330437,
+      "name": "Álex Jiménez"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 35,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19071,
+      "name": "Emiliano Buendía"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 55,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 407806,
+      "name": "Rayan"
+    },
+    "assist": {
+      "id": 20093,
+      "name": "J. Hill"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 65,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 368030,
+      "name": "E. J. Kroupi"
+    },
+    "assist": {
+      "id": 1125,
+      "name": "R. Christie"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19071,
+      "name": "E. Buendia"
+    },
+    "assist": {
+      "id": 983,
+      "name": "L. Bailey"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 18,
+      "name": "J. Sancho"
+    },
+    "assist": {
+      "id": 138816,
+      "name": "I. Maatsen"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 47522,
+      "name": "Douglas Luiz"
+    },
+    "assist": {
+      "id": 2287,
+      "name": "R. Barkley"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 330437,
+      "name": "A. Jimenez"
+    },
+    "assist": {
+      "id": 18869,
+      "name": "A. Smith"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19366,
+      "name": "O. Watkins"
+    },
+    "assist": {
+      "id": 19194,
+      "name": "T. Abraham"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 2724,
+      "name": "L. Digne"
+    },
+    "assist": {
+      "id": 284457,
+      "name": "L. Bogarde"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 407806,
+      "name": "Rayan"
+    },
+    "assist": {
+      "id": 18870,
+      "name": "D. Brooks"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 152856,
+      "name": "Evanilson"
+    },
+    "assist": {
+      "id": 47499,
+      "name": "E. Unal"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  }
+]

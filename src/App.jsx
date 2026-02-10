@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Analysis from "./pages/Analysis";
 import About from "./pages/About";
 import Tools from "./pages/Tools";
+import Events from "./pages/Events";
 
 function App() {
 
@@ -12,7 +12,8 @@ function App() {
         <Navbar />
         <main className="max-w-6xl mx-auto px-6 py-8">
           <Routes>
-            <Route path="/" element={<Analysis />} />
+            {/* <Route path="/" element={<Navigate to="/about" replace />} /> */}
+            <Route path="/events" element={<Events />} />
             <Route path="/about" element={<About />} />
             <Route path="/tools" element={<Tools />} />
           </Routes>

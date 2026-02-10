@@ -1,0 +1,354 @@
+[
+  {
+    "time": {
+      "elapsed": 27,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 47315,
+      "name": "M. Zubimendi"
+    },
+    "assist": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 37,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 47969,
+      "name": "Gabriel Gudmundsson"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 38,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 19760,
+      "name": "J. Justin"
+    },
+    "assist": {
+      "id": 18901,
+      "name": "S. Longstaff"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 129142,
+      "name": "I. Gruev"
+    },
+    "assist": {
+      "id": 48389,
+      "name": "N. Okafor"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 59,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 38746,
+      "name": "Jurriën Timber"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 978,
+      "name": "K. Havertz"
+    },
+    "assist": {
+      "id": 37127,
+      "name": "M. Odegaard"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "assist": {
+      "id": 127769,
+      "name": "G. Martinelli"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 18979,
+      "name": "V. Gyokeres"
+    },
+    "assist": {
+      "id": 127769,
+      "name": "G. Martinelli"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 50739,
+      "name": "B. Aaronson"
+    },
+    "assist": {
+      "id": 311334,
+      "name": "F. Buonanotte"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 127817,
+      "name": "P. Hincapie"
+    },
+    "assist": {
+      "id": 157052,
+      "name": "R. Calafiori"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 76,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 18979,
+      "name": "V. Gyökeres"
+    },
+    "assist": {
+      "id": 643,
+      "name": "Gabriel Jesus"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 177665,
+      "name": "A. Stach"
+    },
+    "assist": {
+      "id": 162128,
+      "name": "W. Gnonto"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 1946,
+      "name": "L. Trossard"
+    },
+    "assist": {
+      "id": 19586,
+      "name": "E. Eze"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 85,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 18766,
+      "name": "D. Calvert-Lewin"
+    },
+    "assist": {
+      "id": 250,
+      "name": "J. Piroe"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 643,
+      "name": "Gabriel Jesus"
+    },
+    "assist": {
+      "id": 37127,
+      "name": "M. Odegaard"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]

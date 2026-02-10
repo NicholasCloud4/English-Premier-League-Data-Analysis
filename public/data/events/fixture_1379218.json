@@ -1,0 +1,310 @@
+[
+  {
+    "time": {
+      "elapsed": 13,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 152982,
+      "name": "C. Palmer"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Penalty",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 35,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 152982,
+      "name": "C. Palmer"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Penalty",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 38,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 152982,
+      "name": "C. Palmer"
+    },
+    "assist": {
+      "id": 47380,
+      "name": "M. Cucurella"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 43,
+      "extra": null
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 24888,
+      "name": "Hwang Hee-Chan"
+    },
+    "assist": {
+      "id": 66407,
+      "name": "L. Krejci"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 45,
+      "extra": 4
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 19484,
+      "name": "Adam Armstrong"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 18742,
+      "name": "M. Doherty"
+    },
+    "assist": {
+      "id": 282770,
+      "name": "R. Gomes"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 54,
+      "extra": null
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 110153,
+      "name": "T. Arokodare"
+    },
+    "assist": {
+      "id": 19484,
+      "name": "A. Armstrong"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 152982,
+      "name": "C. Palmer"
+    },
+    "assist": {
+      "id": 284324,
+      "name": "A. Garnacho"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 73,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 47380,
+      "name": "Marc Cucurella"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Handball"
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 161907,
+      "name": "M. Gusto"
+    },
+    "assist": {
+      "id": 366735,
+      "name": "J. Acheampong"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 10329,
+      "name": "Joao Pedro"
+    },
+    "assist": {
+      "id": 161948,
+      "name": "L. Delap"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 896,
+      "name": "A. Gomes"
+    },
+    "assist": {
+      "id": 20665,
+      "name": "J. Bellegarde"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 84,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 305834,
+      "name": "Andrey Santos"
+    },
+    "assist": {
+      "id": 341642,
+      "name": "J. Hato"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 1
+    },
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "player": {
+      "id": 195103,
+      "name": "Joao Gomes"
+    },
+    "assist": {
+      "id": 449245,
+      "name": "Pedro Lima"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  }
+]
