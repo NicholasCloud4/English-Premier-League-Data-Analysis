@@ -18,6 +18,10 @@ export default function Navbar() {
                 {/* Links */}
                 <div className="flex gap-8">
 
+                    <NavLink to="/analysis" className={linkClass}>
+                        Analysis
+                    </NavLink>
+
                     <NavLink to="/events" className={linkClass}>
                         Events
                     </NavLink>
