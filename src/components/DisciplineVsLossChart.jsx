@@ -3,26 +3,26 @@ import { ScatterChart } from "@mui/x-charts/ScatterChart";
 import { Paper, Typography, Box, Alert, Stack, Chip } from "@mui/material";
 
 export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
-
     const { chartSeries, hasData } = useMemo(() => {
         if (!fixtures || fixtures.length === 0 || !selectedTeam)
             return { chartSeries: [], hasData: false };
 
         const getDisciplineScore = (y, r) => (Number(y) || 0) * 1 + (Number(r) || 0) * 3;
 
-        const dataPoints = fixtures.map((f) => {
+        // 1. Process all raw data points first
+        const allPoints = fixtures.map((f, index) => {
             const isHome = f.teams.home.name === selectedTeam;
             const myStats = f.statistics?.find(s => s.team.name === selectedTeam);
             const oppStats = f.statistics?.find(s => s.team.name !== selectedTeam);
 
             if (!myStats || !oppStats) return null;
 
-            // 1. Calculate Discipline (X-Axis)
+            // Calculate Discipline (X-Axis)
             const myY = myStats.statistics.find(s => s.type === "Yellow Cards")?.value ?? 0;
             const myR = myStats.statistics.find(s => s.type === "Red Cards")?.value ?? 0;
-            const xVal = getDisciplineScore(myY, myR);
+            const xBase = getDisciplineScore(myY, myR);
 
-            // 2. Calculate Points Earned (Y-Axis)
+            // Calculate Points (Y-Axis)
             const myGoals = isHome ? f.goals.home : f.goals.away;
             const oppGoals = isHome ? f.goals.away : f.goals.home;
 
@@ -30,13 +30,14 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
             if (myGoals > oppGoals) points = 3;
             else if (myGoals === oppGoals) points = 1;
 
-            // 3. Add "Jitter" so dots don't overlap perfectly on the 0, 1, and 3 lines
-            const jitter = (Math.random() - 0.5) * 0.25;
+            // Deterministic Jitter
+            const xJitter = ((index % 3) - 1) * 0.12;
+            const yJitter = ((index % 2) === 0 ? 1 : -1) * 0.15;
 
             return {
-                id: f.fixture.id,
-                x: xVal,
-                y: points + jitter,
+                id: f.fixture?.id || `idx-${index}`,
+                x: xBase + xJitter,
+                y: points + yJitter,
                 actualPoints: points,
                 oppName: oppStats.team.name,
                 cards: `Y:${myY} R:${myR}`,
@@ -44,17 +45,47 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
             };
         }).filter(Boolean);
 
-        const series = [{
-            data: dataPoints,
-            label: `Match Points for ${selectedTeam}`,
-            color: "#1976d2",
-            valueFormatter: (v) => `${v.result} vs ${v.oppName} (${v.cards})`
-        }];
+        // 2. Split points into three distinct series for color-coding
+        const series = [
+            {
+                label: "Win",
+                data: allPoints.filter(p => p.actualPoints === 3),
+                color: "#2e7d32",
+            },
+            {
+                label: "Draw",
+                data: allPoints.filter(p => p.actualPoints === 1),
+                color: "#0288d1",
+            },
+            {
+                label: "Loss",
+                data: allPoints.filter(p => p.actualPoints === 0),
+                color: "#d32f2f",
+            }
+        ]
+            .map(s => ({
+                ...s,
+                markerSize: 10,
+                valueFormatter: (v) => `${v.result} vs ${v.oppName} (${v.cards})`
+            }))
+            // CRITICAL FIX: Filter out series with no data to prevent the Flatbush error
+            .filter(s => s.data.length > 0);
 
-        return { chartSeries: series, hasData: dataPoints.length > 0 };
+        return {
+            chartSeries: series,
+            hasData: allPoints.length > 0
+        };
+
+
     }, [fixtures, selectedTeam]);
 
-    if (!hasData) return <Alert severity="info">Select a team to see the discipline-to-points correlation.</Alert>;
+    if (!hasData) {
+        return (
+            <Alert severity="info" sx={{ mt: 4 }}>
+                Select a team to see the discipline-to-points correlation.
+            </Alert>
+        );
+    }
 
     return (
         <Box sx={{ mt: 4 }}>
@@ -64,34 +95,49 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
                 </Typography>
 
                 <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
-                    <Chip size="small" label="Win = 3pts" color="success" variant="outlined" />
-                    <Chip size="small" label="Draw = 1pt" color="primary" variant="outlined" />
-                    <Chip size="small" label="Loss = 0pts" color="error" variant="outlined" />
+                    <Chip size="small" label="Win = 3pts" color="success" variant="filled" />
+                    <Chip size="small" label="Draw = 1pt" color="primary" variant="filled" />
+                    <Chip size="small" label="Loss = 0pts" color="error" variant="filled" />
                 </Stack>
 
                 <ScatterChart
                     height={400}
                     series={chartSeries}
                     xAxis={[{
-                        label: "Discipline 'Weight' (Y=1, R=3)",
-                        min: -0.5
+                        label: "Discipline 'Weight' (Yellow=1, Red=3)",
+                        min: -0.5,
+                        tickMinStep: 1,
+                        valueFormatter: (v) => Math.round(v).toString()
                     }]}
                     yAxis={[{
-                        label: "League Points Earned",
-                        min: -0.5,
-                        max: 3.5,
-                        tickNumber: 4,
+                        label: "Match Outcome",
+                        tickValues: [0, 1, 3],
+                        min: -0.8,
+                        max: 3.8,
                         valueFormatter: (v) => {
-                            if (v >= 2.8) return "3 (Win)";
-                            if (v >= 0.8 && v <= 1.2) return "1 (Draw)";
-                            if (v <= 0.2) return "0 (Loss)";
+                            if (v === 3) return "Win";
+                            if (v === 1) return "Draw";
+                            if (v === 0) return "Loss";
                             return "";
                         }
                     }]}
                     grid={{ horizontal: true }}
+                    slotProps={{
+                        // Hide the default legend if you want to use the Chips above,
+                        // or keep it for interactive filtering.
+                        legend: {
+                            direction: 'row',
+                            position: { vertical: 'top', horizontal: 'middle' },
+                            padding: 0,
+                        },
+                        popper: {
+                            sx: { pointerEvents: 'none' }
+                        }
+                    }}
                 />
+
                 <Typography variant="caption" display="block" textAlign="center" sx={{ mt: 2, color: 'text.secondary' }}>
-                    * Dots are slightly offset (jittered) vertically to show multiple matches with the same result.
+                    * Dots are jittered to reveal overlapping matches with identical cards/results.
                 </Typography>
             </Paper>
         </Box>

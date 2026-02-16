@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Select, MenuItem, FormControl, InputLabel, Typography, Box } from "@mui/material";
 import DisciplineVsLossChart from "../components/DisciplineVsLossChart";
 import TeamOutcomeChart from "../components/TeamOutcomeChart";
+import ShotsVsGoalsChart from "../components/ShotVsGoalChart";
 
 export default function Analysis() {
     const [fixtures, setFixtures] = useState([]);
@@ -51,6 +52,8 @@ export default function Analysis() {
             />
 
             <DisciplineVsLossChart fixtures={fixtures} selectedTeam={selectedTeam} />
+
+            <ShotsVsGoalsChart fixtures={fixtures} selectedTeam={selectedTeam} />
         </Box>
     );
 }
