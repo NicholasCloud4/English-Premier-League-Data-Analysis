@@ -95,9 +95,9 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
                 </Typography>
 
                 <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
-                    <Chip size="small" label="Win = 3pts" color="success" variant="filled" />
-                    <Chip size="small" label="Draw = 1pt" color="primary" variant="filled" />
-                    <Chip size="small" label="Loss = 0pts" color="error" variant="filled" />
+                    <Chip size="small" label="Win = 3pts" color="success" variant="outlined" />
+                    <Chip size="small" label="Draw = 1pt" color="primary" variant="outlined" />
+                    <Chip size="small" label="Loss = 0pts" color="error" variant="outlined" />
                 </Stack>
 
                 <ScatterChart
