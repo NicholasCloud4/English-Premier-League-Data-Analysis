@@ -9,7 +9,7 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
 
         const getDisciplineScore = (y, r) => (Number(y) || 0) * 1 + (Number(r) || 0) * 3;
 
-        // 1. Process all raw data points first
+        // Step 1: Collect all raw points
         const allPoints = fixtures.map((f, index) => {
             const isHome = f.teams.home.name === selectedTeam;
             const myStats = f.statistics?.find(s => s.team.name === selectedTeam);
@@ -17,65 +17,70 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
 
             if (!myStats || !oppStats) return null;
 
-            // Calculate Discipline (X-Axis)
             const myY = myStats.statistics.find(s => s.type === "Yellow Cards")?.value ?? 0;
             const myR = myStats.statistics.find(s => s.type === "Red Cards")?.value ?? 0;
-            const xBase = getDisciplineScore(myY, myR);
+            const rawX = getDisciplineScore(myY, myR);
 
-            // Calculate Points (Y-Axis)
             const myGoals = isHome ? f.goals.home : f.goals.away;
             const oppGoals = isHome ? f.goals.away : f.goals.home;
 
-            let points = 0;
-            if (myGoals > oppGoals) points = 3;
-            else if (myGoals === oppGoals) points = 1;
-
-            // Deterministic Jitter
-            const xJitter = ((index % 3) - 1) * 0.12;
-            const yJitter = ((index % 2) === 0 ? 1 : -1) * 0.15;
+            let actualPoints = 0;
+            if (myGoals > oppGoals) actualPoints = 3;
+            else if (myGoals === oppGoals) actualPoints = 1;
 
             return {
                 id: f.fixture?.id || `idx-${index}`,
-                x: xBase + xJitter,
-                y: points + yJitter,
-                actualPoints: points,
+                rawX,
+                // Y is fixed — no jitter, labels are categorical (Loss/Draw/Win)
+                y: actualPoints,
+                actualPoints,
                 oppName: oppStats.team.name,
                 cards: `Y:${myY} R:${myR}`,
-                result: points === 3 ? "Win" : points === 1 ? "Draw" : "Loss"
+                result: actualPoints === 3 ? "Win" : actualPoints === 1 ? "Draw" : "Loss"
             };
         }).filter(Boolean);
 
-        // 2. Split points into three distinct series for color-coding
-        const series = [
-            {
-                label: "Win",
-                data: allPoints.filter(p => p.actualPoints === 3),
-                color: "#2e7d32",
-            },
-            {
-                label: "Draw",
-                data: allPoints.filter(p => p.actualPoints === 1),
-                color: "#0288d1",
-            },
-            {
-                label: "Loss",
-                data: allPoints.filter(p => p.actualPoints === 0),
-                color: "#d32f2f",
+        // Step 2: Circular spreading on X only — group by (rawX, y)
+        const grouped = {};
+        allPoints.forEach((p) => {
+            const key = `${p.rawX},${p.y}`;
+            if (!grouped[key]) grouped[key] = [];
+            grouped[key].push(p);
+        });
+
+        const SPREAD = 0.2;
+        const spreadPoints = allPoints.map((p) => {
+            const key = `${p.rawX},${p.y}`;
+            const group = grouped[key];
+            const total = group.length;
+            const index = group.indexOf(p);
+
+            let offsetX = 0;
+            if (total === 2) {
+                offsetX = index === 0 ? -SPREAD * 0.7 : SPREAD * 0.7;
+            } else if (total > 2) {
+                // Spread along X axis only to avoid crossing category boundaries on Y
+                const step = (SPREAD * 2) / (total - 1);
+                offsetX = -SPREAD + step * index;
             }
+
+            return { ...p, x: p.rawX + offsetX };
+        });
+
+        // Step 3: Split into color-coded series
+        const series = [
+            { label: "Win", data: spreadPoints.filter(p => p.actualPoints === 3), color: "#2e7d32" },
+            { label: "Draw", data: spreadPoints.filter(p => p.actualPoints === 1), color: "#0288d1" },
+            { label: "Loss", data: spreadPoints.filter(p => p.actualPoints === 0), color: "#d32f2f" },
         ]
             .map(s => ({
                 ...s,
                 markerSize: 10,
                 valueFormatter: (v) => `${v.result} vs ${v.oppName} (${v.cards})`
             }))
-            // CRITICAL FIX: Filter out series with no data to prevent the Flatbush error
             .filter(s => s.data.length > 0);
 
-        return {
-            chartSeries: series,
-            hasData: allPoints.length > 0
-        };
-
+        return { chartSeries: series, hasData: spreadPoints.length > 0 };
 
     }, [fixtures, selectedTeam]);
 
@@ -104,7 +109,7 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
                     height={400}
                     series={chartSeries}
                     xAxis={[{
-                        label: "Discipline 'Weight' (Yellow=1, Red=3)",
+                        label: "Discipline Weight (Yellow=1, Red=3)",
                         min: -0.5,
                         tickMinStep: 1,
                         valueFormatter: (v) => Math.round(v).toString()
@@ -123,21 +128,17 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
                     }]}
                     grid={{ horizontal: true }}
                     slotProps={{
-                        // Hide the default legend if you want to use the Chips above,
-                        // or keep it for interactive filtering.
                         legend: {
                             direction: 'row',
                             position: { vertical: 'top', horizontal: 'middle' },
                             padding: 0,
                         },
-                        popper: {
-                            sx: { pointerEvents: 'none' }
-                        }
+                        popper: { sx: { pointerEvents: 'none' } }
                     }}
                 />
 
                 <Typography variant="caption" display="block" textAlign="center" sx={{ mt: 2, color: 'text.secondary' }}>
-                    * Dots are jittered to reveal overlapping matches with identical cards/results.
+                    * Dots with identical discipline scores are spread horizontally to prevent overlap.
                 </Typography>
             </Paper>
         </Box>
