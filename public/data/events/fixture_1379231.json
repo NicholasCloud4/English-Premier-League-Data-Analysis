@@ -1,0 +1,420 @@
+[
+  {
+    "time": {
+      "elapsed": -5,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 20303,
+      "name": "Josh Laurent"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 4,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 10329,
+      "name": "Joao Pedro"
+    },
+    "assist": {
+      "id": 1864,
+      "name": "P. Neto"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 30,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 180560,
+      "name": "Hannibal Mejbri"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 34,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 22094,
+      "name": "Wesley Fofana"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 627,
+      "name": "K. Walker"
+    },
+    "assist": {
+      "id": 330238,
+      "name": "Lucas Pires"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 57,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 270508,
+      "name": "L. Ugochukwu"
+    },
+    "assist": {
+      "id": 2938,
+      "name": "J. Ward-Prowse"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 72,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 22094,
+      "name": "Wesley Fofana"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 72,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 22094,
+      "name": "Wesley Fofana"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Red Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 152982,
+      "name": "C. Palmer"
+    },
+    "assist": {
+      "id": 19145,
+      "name": "T. Adarabioyo"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 78,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 20303,
+      "name": "J. Laurent"
+    },
+    "assist": {
+      "id": 22,
+      "name": "J. Bruun Larsen"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 161907,
+      "name": "M. Gusto"
+    },
+    "assist": {
+      "id": 341642,
+      "name": "J. Hato"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 10329,
+      "name": "Joao Pedro"
+    },
+    "assist": {
+      "id": 161948,
+      "name": "L. Delap"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 181797,
+      "name": "B. Humphreys"
+    },
+    "assist": {
+      "id": 161621,
+      "name": "L. Tchaouna"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 84,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 196855,
+      "name": "J. Anthony"
+    },
+    "assist": {
+      "id": 18927,
+      "name": "A. Barnes"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 88,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 1864,
+      "name": "P. Neto"
+    },
+    "assist": {
+      "id": 276184,
+      "name": "M. Sarr"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 89,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 19545,
+      "name": "R. James"
+    },
+    "assist": {
+      "id": 366735,
+      "name": "J. Acheampong"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 5
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 341642,
+      "name": "Jorrel Hato"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "player": {
+      "id": 18959,
+      "name": "Robert Sánchez"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Time wasting"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "player": {
+      "id": 36927,
+      "name": "Z. Flemming"
+    },
+    "assist": {
+      "id": 2938,
+      "name": "J. Ward-Prowse"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]

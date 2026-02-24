@@ -7,20 +7,20 @@
         "name": "Arsenal",
         "logo": "https://media.api-sports.io/football/teams/42.png"
       },
-      "points": 56,
-      "goalsDiff": 32,
+      "points": 61,
+      "goalsDiff": 35,
       "group": "Premier League",
-      "form": "WWLDD",
+      "form": "WDDWW",
       "status": "same",
       "description": "Promotion - Champions League (League phase)",
       "all": {
-        "played": 25,
-        "win": 17,
-        "draw": 5,
+        "played": 28,
+        "win": 18,
+        "draw": 7,
         "lose": 3,
         "goals": {
-          "for": 49,
-          "against": 17
+          "for": 56,
+          "against": 21
         }
       },
       "home": {
@@ -34,16 +34,16 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 7,
-        "draw": 3,
+        "played": 15,
+        "win": 8,
+        "draw": 5,
         "lose": 2,
         "goals": {
-          "for": 18,
-          "against": 9
+          "for": 25,
+          "against": 13
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 2,
@@ -52,30 +52,30 @@
         "name": "Manchester City",
         "logo": "https://media.api-sports.io/football/teams/50.png"
       },
-      "points": 50,
-      "goalsDiff": 27,
+      "points": 56,
+      "goalsDiff": 31,
       "group": "Premier League",
-      "form": "WDWLD",
+      "form": "WWWDW",
       "status": "same",
       "description": "Promotion - Champions League (League phase)",
       "all": {
-        "played": 25,
-        "win": 15,
+        "played": 27,
+        "win": 17,
         "draw": 5,
         "lose": 5,
         "goals": {
-          "for": 51,
-          "against": 24
+          "for": 56,
+          "against": 25
         }
       },
       "home": {
-        "played": 12,
-        "win": 9,
+        "played": 14,
+        "win": 11,
         "draw": 2,
         "lose": 1,
         "goals": {
-          "for": 29,
-          "against": 8
+          "for": 34,
+          "against": 9
         }
       },
       "away": {
@@ -88,7 +88,7 @@
           "against": 16
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 3,
@@ -97,30 +97,30 @@
         "name": "Aston Villa",
         "logo": "https://media.api-sports.io/football/teams/66.png"
       },
-      "points": 47,
-      "goalsDiff": 9,
+      "points": 51,
+      "goalsDiff": 10,
       "group": "Premier League",
-      "form": "DLWLD",
+      "form": "DWDLW",
       "status": "same",
       "description": "Promotion - Champions League (League phase)",
       "all": {
-        "played": 25,
-        "win": 14,
-        "draw": 5,
+        "played": 27,
+        "win": 15,
+        "draw": 6,
         "lose": 6,
         "goals": {
-          "for": 36,
-          "against": 27
+          "for": 38,
+          "against": 28
         }
       },
       "home": {
-        "played": 12,
-        "win": 8,
-        "draw": 1,
+        "played": 14,
+        "win": 9,
+        "draw": 2,
         "lose": 3,
         "goals": {
-          "for": 18,
-          "against": 10
+          "for": 20,
+          "against": 11
         }
       },
       "away": {
@@ -133,7 +133,7 @@
           "against": 17
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 4,
@@ -142,20 +142,20 @@
         "name": "Manchester United",
         "logo": "https://media.api-sports.io/football/teams/33.png"
       },
-      "points": 44,
-      "goalsDiff": 10,
+      "points": 48,
+      "goalsDiff": 11,
       "group": "Premier League",
-      "form": "WWWWD",
+      "form": "WDWWW",
       "status": "same",
       "description": "Promotion - Champions League (League phase)",
       "all": {
-        "played": 25,
-        "win": 12,
-        "draw": 8,
+        "played": 27,
+        "win": 13,
+        "draw": 9,
         "lose": 5,
         "goals": {
-          "for": 46,
-          "against": 36
+          "for": 48,
+          "against": 37
         }
       },
       "home": {
@@ -169,16 +169,16 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 4,
-        "draw": 5,
+        "played": 14,
+        "win": 5,
+        "draw": 6,
         "lose": 3,
         "goals": {
-          "for": 21,
-          "against": 21
+          "for": 23,
+          "against": 22
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 5,
@@ -187,30 +187,30 @@
         "name": "Chelsea",
         "logo": "https://media.api-sports.io/football/teams/49.png"
       },
-      "points": 43,
+      "points": 45,
       "goalsDiff": 17,
       "group": "Premier League",
-      "form": "WWWWL",
+      "form": "DDWWW",
       "status": "same",
       "description": "Promotion - Europa League (League phase)",
       "all": {
-        "played": 25,
+        "played": 27,
         "win": 12,
-        "draw": 7,
+        "draw": 9,
         "lose": 6,
         "goals": {
-          "for": 45,
-          "against": 28
+          "for": 48,
+          "against": 31
         }
       },
       "home": {
-        "played": 12,
+        "played": 14,
         "win": 6,
-        "draw": 3,
+        "draw": 5,
         "lose": 3,
         "goals": {
-          "for": 20,
-          "against": 13
+          "for": 23,
+          "against": 16
         }
       },
       "away": {
@@ -223,7 +223,7 @@
           "against": 15
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 6,
@@ -232,19 +232,19 @@
         "name": "Liverpool",
         "logo": "https://media.api-sports.io/football/teams/40.png"
       },
-      "points": 39,
-      "goalsDiff": 5,
+      "points": 45,
+      "goalsDiff": 7,
       "group": "Premier League",
-      "form": "LWLDD",
+      "form": "WWLWL",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
-        "win": 11,
+        "played": 27,
+        "win": 13,
         "draw": 6,
         "lose": 8,
         "goals": {
-          "for": 40,
+          "for": 42,
           "against": 35
         }
       },
@@ -259,16 +259,16 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 4,
+        "played": 14,
+        "win": 6,
         "draw": 3,
         "lose": 5,
         "goals": {
-          "for": 19,
+          "for": 21,
           "against": 21
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 7,
@@ -277,30 +277,30 @@
         "name": "Brentford",
         "logo": "https://media.api-sports.io/football/teams/55.png"
       },
-      "points": 39,
-      "goalsDiff": 5,
+      "points": 40,
+      "goalsDiff": 3,
       "group": "Premier League",
-      "form": "WWLLW",
+      "form": "LDWWL",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
+        "played": 27,
         "win": 12,
-        "draw": 3,
-        "lose": 10,
+        "draw": 4,
+        "lose": 11,
         "goals": {
-          "for": 39,
-          "against": 34
+          "for": 40,
+          "against": 37
         }
       },
       "home": {
-        "played": 12,
+        "played": 14,
         "win": 7,
-        "draw": 3,
-        "lose": 2,
+        "draw": 4,
+        "lose": 3,
         "goals": {
-          "for": 23,
-          "against": 12
+          "for": 24,
+          "against": 15
         }
       },
       "away": {
@@ -313,164 +313,29 @@
           "against": 22
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 8,
-      "team": {
-        "id": 45,
-        "name": "Everton",
-        "logo": "https://media.api-sports.io/football/teams/45.png"
-      },
-      "points": 37,
-      "goalsDiff": 0,
-      "group": "Premier League",
-      "form": "WDDWD",
-      "status": "same",
-      "description": null,
-      "all": {
-        "played": 25,
-        "win": 10,
-        "draw": 7,
-        "lose": 8,
-        "goals": {
-          "for": 28,
-          "against": 28
-        }
-      },
-      "home": {
-        "played": 12,
-        "win": 4,
-        "draw": 4,
-        "lose": 4,
-        "goals": {
-          "for": 15,
-          "against": 16
-        }
-      },
-      "away": {
-        "played": 13,
-        "win": 6,
-        "draw": 3,
-        "lose": 4,
-        "goals": {
-          "for": 13,
-          "against": 12
-        }
-      },
-      "update": "2026-02-08T00:00:00+00:00"
-    },
-    {
-      "rank": 9,
-      "team": {
-        "id": 746,
-        "name": "Sunderland",
-        "logo": "https://media.api-sports.io/football/teams/746.png"
-      },
-      "points": 36,
-      "goalsDiff": -2,
-      "group": "Premier League",
-      "form": "LWLWL",
-      "status": "same",
-      "description": null,
-      "all": {
-        "played": 25,
-        "win": 9,
-        "draw": 9,
-        "lose": 7,
-        "goals": {
-          "for": 27,
-          "against": 29
-        }
-      },
-      "home": {
-        "played": 12,
-        "win": 7,
-        "draw": 5,
-        "lose": 0,
-        "goals": {
-          "for": 21,
-          "against": 9
-        }
-      },
-      "away": {
-        "played": 13,
-        "win": 2,
-        "draw": 4,
-        "lose": 7,
-        "goals": {
-          "for": 6,
-          "against": 20
-        }
-      },
-      "update": "2026-02-08T00:00:00+00:00"
-    },
-    {
-      "rank": 10,
-      "team": {
-        "id": 36,
-        "name": "Fulham",
-        "logo": "https://media.api-sports.io/football/teams/36.png"
-      },
-      "points": 34,
-      "goalsDiff": -2,
-      "group": "Premier League",
-      "form": "LLWLW",
-      "status": "same",
-      "description": null,
-      "all": {
-        "played": 25,
-        "win": 10,
-        "draw": 4,
-        "lose": 11,
-        "goals": {
-          "for": 35,
-          "against": 37
-        }
-      },
-      "home": {
-        "played": 13,
-        "win": 7,
-        "draw": 2,
-        "lose": 4,
-        "goals": {
-          "for": 22,
-          "against": 16
-        }
-      },
-      "away": {
-        "played": 12,
-        "win": 3,
-        "draw": 2,
-        "lose": 7,
-        "goals": {
-          "for": 13,
-          "against": 21
-        }
-      },
-      "update": "2026-02-08T00:00:00+00:00"
-    },
-    {
-      "rank": 11,
       "team": {
         "id": 35,
         "name": "Bournemouth",
         "logo": "https://media.api-sports.io/football/teams/35.png"
       },
-      "points": 34,
-      "goalsDiff": -3,
+      "points": 38,
+      "goalsDiff": -2,
       "group": "Premier League",
-      "form": "DWWDW",
+      "form": "DWDWW",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
-        "win": 8,
-        "draw": 10,
+        "played": 27,
+        "win": 9,
+        "draw": 11,
         "lose": 7,
         "goals": {
-          "for": 41,
-          "against": 44
+          "for": 43,
+          "against": 45
         }
       },
       "home": {
@@ -484,38 +349,128 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 2,
-        "draw": 5,
+        "played": 14,
+        "win": 3,
+        "draw": 6,
         "lose": 5,
         "goals": {
-          "for": 21,
-          "against": 30
+          "for": 23,
+          "against": 31
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
-      "rank": 12,
+      "rank": 9,
+      "team": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png"
+      },
+      "points": 37,
+      "goalsDiff": -2,
+      "group": "Premier League",
+      "form": "LLWDD",
+      "status": "same",
+      "description": null,
+      "all": {
+        "played": 27,
+        "win": 10,
+        "draw": 7,
+        "lose": 10,
+        "goals": {
+          "for": 29,
+          "against": 31
+        }
+      },
+      "home": {
+        "played": 14,
+        "win": 4,
+        "draw": 4,
+        "lose": 6,
+        "goals": {
+          "for": 16,
+          "against": 19
+        }
+      },
+      "away": {
+        "played": 13,
+        "win": 6,
+        "draw": 3,
+        "lose": 4,
+        "goals": {
+          "for": 13,
+          "against": 12
+        }
+      },
+      "update": "2026-02-23T00:00:00+00:00"
+    },
+    {
+      "rank": 10,
+      "team": {
+        "id": 36,
+        "name": "Fulham",
+        "logo": "https://media.api-sports.io/football/teams/36.png"
+      },
+      "points": 37,
+      "goalsDiff": -3,
+      "group": "Premier League",
+      "form": "WLLLW",
+      "status": "same",
+      "description": null,
+      "all": {
+        "played": 27,
+        "win": 11,
+        "draw": 4,
+        "lose": 12,
+        "goals": {
+          "for": 38,
+          "against": 41
+        }
+      },
+      "home": {
+        "played": 13,
+        "win": 7,
+        "draw": 2,
+        "lose": 4,
+        "goals": {
+          "for": 22,
+          "against": 16
+        }
+      },
+      "away": {
+        "played": 14,
+        "win": 4,
+        "draw": 2,
+        "lose": 8,
+        "goals": {
+          "for": 16,
+          "against": 25
+        }
+      },
+      "update": "2026-02-23T00:00:00+00:00"
+    },
+    {
+      "rank": 11,
       "team": {
         "id": 34,
         "name": "Newcastle",
         "logo": "https://media.api-sports.io/football/teams/34.png"
       },
-      "points": 33,
+      "points": 36,
       "goalsDiff": -1,
       "group": "Premier League",
-      "form": "LLLDW",
+      "form": "LWLLL",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
-        "win": 9,
+        "played": 27,
+        "win": 10,
         "draw": 6,
-        "lose": 10,
+        "lose": 11,
         "goals": {
-          "for": 35,
-          "against": 36
+          "for": 38,
+          "against": 39
         }
       },
       "home": {
@@ -529,16 +484,61 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 2,
+        "played": 14,
+        "win": 3,
         "draw": 4,
-        "lose": 6,
+        "lose": 7,
         "goals": {
-          "for": 11,
-          "against": 16
+          "for": 14,
+          "against": 19
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
+    },
+    {
+      "rank": 12,
+      "team": {
+        "id": 746,
+        "name": "Sunderland",
+        "logo": "https://media.api-sports.io/football/teams/746.png"
+      },
+      "points": 36,
+      "goalsDiff": -5,
+      "group": "Premier League",
+      "form": "LLLWL",
+      "status": "same",
+      "description": null,
+      "all": {
+        "played": 27,
+        "win": 9,
+        "draw": 9,
+        "lose": 9,
+        "goals": {
+          "for": 28,
+          "against": 33
+        }
+      },
+      "home": {
+        "played": 14,
+        "win": 7,
+        "draw": 5,
+        "lose": 2,
+        "goals": {
+          "for": 22,
+          "against": 13
+        }
+      },
+      "away": {
+        "played": 13,
+        "win": 2,
+        "draw": 4,
+        "lose": 7,
+        "goals": {
+          "for": 6,
+          "against": 20
+        }
+      },
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 13,
@@ -547,30 +547,30 @@
         "name": "Crystal Palace",
         "logo": "https://media.api-sports.io/football/teams/52.png"
       },
-      "points": 32,
+      "points": 35,
       "goalsDiff": -3,
       "group": "Premier League",
-      "form": "WDLLD",
+      "form": "WLWDL",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
-        "win": 8,
+        "played": 27,
+        "win": 9,
         "draw": 8,
-        "lose": 9,
+        "lose": 10,
         "goals": {
-          "for": 26,
-          "against": 29
+          "for": 29,
+          "against": 32
         }
       },
       "home": {
-        "played": 12,
-        "win": 2,
+        "played": 14,
+        "win": 3,
         "draw": 6,
-        "lose": 4,
+        "lose": 5,
         "goals": {
-          "for": 11,
-          "against": 15
+          "for": 14,
+          "against": 18
         }
       },
       "away": {
@@ -583,7 +583,7 @@
           "against": 14
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 14,
@@ -592,20 +592,20 @@
         "name": "Brighton",
         "logo": "https://media.api-sports.io/football/teams/51.png"
       },
-      "points": 31,
-      "goalsDiff": 1,
+      "points": 34,
+      "goalsDiff": 2,
       "group": "Premier League",
-      "form": "LDLDD",
+      "form": "WLLDL",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
-        "win": 7,
+        "played": 27,
+        "win": 8,
         "draw": 10,
-        "lose": 8,
+        "lose": 9,
         "goals": {
-          "for": 34,
-          "against": 33
+          "for": 36,
+          "against": 34
         }
       },
       "home": {
@@ -619,83 +619,38 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 2,
+        "played": 14,
+        "win": 3,
         "draw": 4,
-        "lose": 6,
+        "lose": 7,
         "goals": {
-          "for": 14,
-          "against": 19
+          "for": 16,
+          "against": 20
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 15,
-      "team": {
-        "id": 47,
-        "name": "Tottenham",
-        "logo": "https://media.api-sports.io/football/teams/47.png"
-      },
-      "points": 29,
-      "goalsDiff": 0,
-      "group": "Premier League",
-      "form": "LDDLL",
-      "status": "same",
-      "description": null,
-      "all": {
-        "played": 25,
-        "win": 7,
-        "draw": 8,
-        "lose": 10,
-        "goals": {
-          "for": 35,
-          "against": 35
-        }
-      },
-      "home": {
-        "played": 12,
-        "win": 2,
-        "draw": 4,
-        "lose": 6,
-        "goals": {
-          "for": 15,
-          "against": 16
-        }
-      },
-      "away": {
-        "played": 13,
-        "win": 5,
-        "draw": 4,
-        "lose": 4,
-        "goals": {
-          "for": 20,
-          "against": 19
-        }
-      },
-      "update": "2026-02-08T00:00:00+00:00"
-    },
-    {
-      "rank": 16,
       "team": {
         "id": 63,
         "name": "Leeds",
         "logo": "https://media.api-sports.io/football/teams/63.png"
       },
-      "points": 29,
+      "points": 31,
       "goalsDiff": -9,
       "group": "Premier League",
-      "form": "WLDWL",
+      "form": "DDWLD",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
+        "played": 27,
         "win": 7,
-        "draw": 8,
+        "draw": 10,
         "lose": 10,
         "goals": {
-          "for": 34,
-          "against": 43
+          "for": 37,
+          "against": 46
         }
       },
       "home": {
@@ -709,16 +664,61 @@
         }
       },
       "away": {
-        "played": 12,
+        "played": 14,
         "win": 1,
-        "draw": 4,
+        "draw": 6,
         "lose": 7,
         "goals": {
-          "for": 12,
-          "against": 25
+          "for": 15,
+          "against": 28
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
+    },
+    {
+      "rank": 16,
+      "team": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "points": 29,
+      "goalsDiff": -4,
+      "group": "Premier League",
+      "form": "LLLDD",
+      "status": "same",
+      "description": null,
+      "all": {
+        "played": 27,
+        "win": 7,
+        "draw": 8,
+        "lose": 12,
+        "goals": {
+          "for": 37,
+          "against": 41
+        }
+      },
+      "home": {
+        "played": 14,
+        "win": 2,
+        "draw": 4,
+        "lose": 8,
+        "goals": {
+          "for": 17,
+          "against": 22
+        }
+      },
+      "away": {
+        "played": 13,
+        "win": 5,
+        "draw": 4,
+        "lose": 4,
+        "goals": {
+          "for": 20,
+          "against": 19
+        }
+      },
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 17,
@@ -727,30 +727,30 @@
         "name": "Nottingham Forest",
         "logo": "https://media.api-sports.io/football/teams/65.png"
       },
-      "points": 26,
-      "goalsDiff": -13,
+      "points": 27,
+      "goalsDiff": -14,
       "group": "Premier League",
-      "form": "LDWDW",
+      "form": "LDLDW",
       "status": "same",
       "description": null,
       "all": {
-        "played": 25,
+        "played": 27,
         "win": 7,
-        "draw": 5,
-        "lose": 13,
+        "draw": 6,
+        "lose": 14,
         "goals": {
           "for": 25,
-          "against": 38
+          "against": 39
         }
       },
       "home": {
-        "played": 12,
+        "played": 14,
         "win": 3,
-        "draw": 3,
-        "lose": 6,
+        "draw": 4,
+        "lose": 7,
         "goals": {
           "for": 13,
-          "against": 18
+          "against": 19
         }
       },
       "away": {
@@ -763,7 +763,7 @@
           "against": 20
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 18,
@@ -772,30 +772,30 @@
         "name": "West Ham",
         "logo": "https://media.api-sports.io/football/teams/48.png"
       },
-      "points": 23,
+      "points": 25,
       "goalsDiff": -17,
       "group": "Premier League",
-      "form": "WLWWL",
+      "form": "DDWLW",
       "status": "same",
       "description": "Relegation - Championship",
       "all": {
-        "played": 25,
+        "played": 27,
         "win": 6,
-        "draw": 5,
+        "draw": 7,
         "lose": 14,
         "goals": {
-          "for": 31,
-          "against": 48
+          "for": 32,
+          "against": 49
         }
       },
       "home": {
-        "played": 12,
+        "played": 14,
         "win": 3,
-        "draw": 1,
+        "draw": 3,
         "lose": 8,
         "goals": {
-          "for": 16,
-          "against": 26
+          "for": 17,
+          "against": 27
         }
       },
       "away": {
@@ -808,7 +808,7 @@
           "against": 22
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 19,
@@ -817,20 +817,20 @@
         "name": "Burnley",
         "logo": "https://media.api-sports.io/football/teams/44.png"
       },
-      "points": 15,
-      "goalsDiff": -24,
+      "points": 19,
+      "goalsDiff": -23,
       "group": "Premier League",
-      "form": "LLDDD",
+      "form": "DWLLD",
       "status": "same",
       "description": "Relegation - Championship",
       "all": {
-        "played": 25,
-        "win": 3,
-        "draw": 6,
+        "played": 27,
+        "win": 4,
+        "draw": 7,
         "lose": 16,
         "goals": {
-          "for": 25,
-          "against": 49
+          "for": 29,
+          "against": 52
         }
       },
       "home": {
@@ -844,16 +844,16 @@
         }
       },
       "away": {
-        "played": 12,
-        "win": 1,
-        "draw": 2,
+        "played": 14,
+        "win": 2,
+        "draw": 3,
         "lose": 9,
         "goals": {
-          "for": 13,
-          "against": 30
+          "for": 17,
+          "against": 33
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     },
     {
       "rank": 20,
@@ -862,43 +862,43 @@
         "name": "Wolves",
         "logo": "https://media.api-sports.io/football/teams/39.png"
       },
-      "points": 8,
-      "goalsDiff": -32,
+      "points": 10,
+      "goalsDiff": -33,
       "group": "Premier League",
-      "form": "LLLDD",
+      "form": "LDDLL",
       "status": "same",
       "description": "Relegation - Championship",
       "all": {
-        "played": 25,
+        "played": 28,
         "win": 1,
-        "draw": 5,
-        "lose": 19,
+        "draw": 7,
+        "lose": 20,
         "goals": {
-          "for": 16,
-          "against": 48
+          "for": 18,
+          "against": 51
         }
       },
       "home": {
-        "played": 13,
+        "played": 14,
         "win": 1,
-        "draw": 2,
+        "draw": 3,
         "lose": 10,
         "goals": {
-          "for": 11,
-          "against": 28
+          "for": 13,
+          "against": 30
         }
       },
       "away": {
-        "played": 12,
+        "played": 14,
         "win": 0,
-        "draw": 3,
-        "lose": 9,
+        "draw": 4,
+        "lose": 10,
         "goals": {
           "for": 5,
-          "against": 20
+          "against": 21
         }
       },
-      "update": "2026-02-08T00:00:00+00:00"
+      "update": "2026-02-23T00:00:00+00:00"
     }
   ]
 ]

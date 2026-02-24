@@ -1,0 +1,354 @@
+[
+  {
+    "time": {
+      "elapsed": 42,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 18592,
+      "name": "I. Ndiaye"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Penalty",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 57,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 407806,
+      "name": "Rayan"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 58,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 152856,
+      "name": "Evanilson"
+    },
+    "assist": {
+      "id": 368030,
+      "name": "E. J. Kroupi"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 58,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 361485,
+      "name": "A. Toth"
+    },
+    "assist": {
+      "id": 47499,
+      "name": "E. Unal"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 407806,
+      "name": "Rayan"
+    },
+    "assist": {
+      "id": 162267,
+      "name": "A. Truffert"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 62,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 343684,
+      "name": "T. Barry"
+    },
+    "assist": {
+      "id": 125743,
+      "name": "Beto"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 62,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 334037,
+      "name": "T. George"
+    },
+    "assist": {
+      "id": 405360,
+      "name": "H. Armstrong"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 64,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 129682,
+      "name": "A. Adli"
+    },
+    "assist": {
+      "id": 20093,
+      "name": "J. Hill"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 125743,
+      "name": "Beto"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 270139,
+      "name": "Jake O'Brien"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Red Card",
+    "comments": "Professional foul last man"
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 1125,
+      "name": "R. Christie"
+    },
+    "assist": {
+      "id": 18872,
+      "name": "L. Cook"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 129682,
+      "name": "A. Adli"
+    },
+    "assist": {
+      "id": 18870,
+      "name": "D. Brooks"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 18870,
+      "name": "David Brooks"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Time wasting"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 6
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 330437,
+      "name": "Álex Jiménez"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 3
+    },
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "player": {
+      "id": 2165,
+      "name": "V. Mykolenko"
+    },
+    "assist": {
+      "id": 2934,
+      "name": "M. Keane"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 3
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 407806,
+      "name": "Rayan"
+    },
+    "assist": {
+      "id": 18869,
+      "name": "A. Smith"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "time": {
+      "elapsed": 31,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 177665,
+      "name": "A. Stach"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 47969,
+      "name": "G. Gudmundsson"
+    },
+    "assist": {
+      "id": 833,
+      "name": "J. Bijol"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 162714,
+      "name": "A. Onana"
+    },
+    "assist": {
+      "id": 2287,
+      "name": "R. Barkley"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 983,
+      "name": "L. Bailey"
+    },
+    "assist": {
+      "id": 18,
+      "name": "J. Sancho"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 62,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 833,
+      "name": "Jaka Bijol"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 18885,
+      "name": "Karl Darlow"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Time wasting"
+  },
+  {
+    "time": {
+      "elapsed": 73,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19071,
+      "name": "Emiliano Buendía"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 73,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 50739,
+      "name": "B. Aaronson"
+    },
+    "assist": {
+      "id": 19461,
+      "name": "L. Nmecha"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 75,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19071,
+      "name": "E. Buendia"
+    },
+    "assist": {
+      "id": 19194,
+      "name": "T. Abraham"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 79,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 19201,
+      "name": "Jayden Bogle"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 177665,
+      "name": "A. Stach"
+    },
+    "assist": {
+      "id": 18901,
+      "name": "S. Longstaff"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 47522,
+      "name": "Douglas Luiz"
+    },
+    "assist": {
+      "id": 284457,
+      "name": "L. Bogarde"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19298,
+      "name": "M. Cash"
+    },
+    "assist": {
+      "id": 388013,
+      "name": "A. Garcia"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 88,
+      "extra": null
+    },
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "player": {
+      "id": 19194,
+      "name": "T. Abraham"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 2
+    },
+    "team": {
+      "id": 63,
+      "name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+    },
+    "player": {
+      "id": 129142,
+      "name": "Ilia Gruev"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  }
+]

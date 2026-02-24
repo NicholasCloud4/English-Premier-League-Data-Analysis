@@ -1,0 +1,310 @@
+[
+  {
+    "time": {
+      "elapsed": 4,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 25073,
+      "name": "Vitaly Janelt"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 20,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 22224,
+      "name": "Gabriel Magalhães"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 30,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 18979,
+      "name": "Viktor Gyökeres"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 19586,
+      "name": "E. Eze"
+    },
+    "assist": {
+      "id": 37127,
+      "name": "M. Odegaard"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 53,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 47438,
+      "name": "Mathias Jensen"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "assist": {
+      "id": 127817,
+      "name": "P. Hincapie"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 70,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 136723,
+      "name": "N. Madueke"
+    },
+    "assist": {
+      "id": 1460,
+      "name": "B. Saka"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 71,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 106725,
+      "name": "K. Lewis-Potter"
+    },
+    "assist": {
+      "id": 36922,
+      "name": "S. van den Berg"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 73,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 263538,
+      "name": "Y. Yarmolyuk"
+    },
+    "assist": {
+      "id": 292,
+      "name": "J. Henderson"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 73,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 106725,
+      "name": "K. Lewis-Potter"
+    },
+    "assist": {
+      "id": 15908,
+      "name": "M. Damsgaard"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 127817,
+      "name": "P. Hincapie"
+    },
+    "assist": {
+      "id": 157052,
+      "name": "R. Calafiori"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 81,
+      "extra": null
+    },
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "player": {
+      "id": 1946,
+      "name": "L. Trossard"
+    },
+    "assist": {
+      "id": 127769,
+      "name": "G. Martinelli"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 86,
+      "extra": null
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 284797,
+      "name": "Dango Ouattara"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Argument"
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 5
+    },
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "player": {
+      "id": 19346,
+      "name": "R. Henry"
+    },
+    "assist": {
+      "id": 44871,
+      "name": "A. Hickey"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  }
+]

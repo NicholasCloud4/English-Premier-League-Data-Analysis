@@ -1,0 +1,288 @@
+[
+  {
+    "time": {
+      "elapsed": 20,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 18746,
+      "name": "M. Gibbs-White"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Delay of game"
+  },
+  {
+    "time": {
+      "elapsed": 61,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 2771,
+      "name": "O. Aina"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Holding"
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 2298,
+      "name": "C. Hudson-Odoi"
+    },
+    "assist": {
+      "id": 48648,
+      "name": "D. Ndoye"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 284428,
+      "name": "O. Hutchinson"
+    },
+    "assist": {
+      "id": 129695,
+      "name": "D. Bakwa"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 9366,
+      "name": "Igor Jesus"
+    },
+    "assist": {
+      "id": 199089,
+      "name": "L. Lucca"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 138908,
+      "name": "E. Anderson"
+    },
+    "assist": {
+      "id": 6056,
+      "name": "N. Dominguez"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 306,
+      "name": "M. Salah"
+    },
+    "assist": {
+      "id": 452685,
+      "name": "R. Ngumoha"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 77,
+      "extra": null
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 247,
+      "name": "C. Gakpo"
+    },
+    "assist": {
+      "id": 30410,
+      "name": "F. Chiesa"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 293,
+      "name": "C. Jones"
+    },
+    "assist": {
+      "id": 284,
+      "name": "J. Gomez"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 206254,
+      "name": "M. Kerkez"
+    },
+    "assist": {
+      "id": 289,
+      "name": "A. Robertson"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 6716,
+      "name": "A. Mac Allister"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Var",
+    "detail": "Goal Disallowed - handball",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 3
+    },
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "player": {
+      "id": 18746,
+      "name": "M. Gibbs-White"
+    },
+    "assist": {
+      "id": 158697,
+      "name": "J. McAtee"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 7
+    },
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "player": {
+      "id": 6716,
+      "name": "A. Mac Allister"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]

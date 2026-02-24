@@ -1,0 +1,288 @@
+[
+  {
+    "time": {
+      "elapsed": 50,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 1243,
+      "name": "T. Soucek"
+    },
+    "assist": {
+      "id": 19428,
+      "name": "J. Bowen"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 57,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 886,
+      "name": "Diogo Dalot"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 64,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 747,
+      "name": "Casemiro"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Var",
+    "detail": "Goal cancelled",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 68,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 2935,
+      "name": "H. Maguire"
+    },
+    "assist": {
+      "id": 342970,
+      "name": "L. Yoro"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 50856,
+      "name": "T. Castellanos"
+    },
+    "assist": {
+      "id": 2939,
+      "name": "C. Wilson"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 69,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 1165,
+      "name": "M. Cunha"
+    },
+    "assist": {
+      "id": 115589,
+      "name": "B. Sesko"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 70,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 336585,
+      "name": "Mateus Fernandes"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Persistent fouling"
+  },
+  {
+    "time": {
+      "elapsed": 79,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 284446,
+      "name": "F. Potts"
+    },
+    "assist": {
+      "id": 326176,
+      "name": "S. Magassa"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 409303,
+      "name": "M. Diouf"
+    },
+    "assist": {
+      "id": 327730,
+      "name": "O. Scarles"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 82,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 886,
+      "name": "D. Dalot"
+    },
+    "assist": {
+      "id": 70100,
+      "name": "J. Zirkzee"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 19428,
+      "name": "J. Bowen"
+    },
+    "assist": {
+      "id": 171,
+      "name": "K. Walker-Peters"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 37724,
+      "name": "C. Summerville"
+    },
+    "assist": {
+      "id": 18753,
+      "name": "A. Traore"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": null
+    },
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "player": {
+      "id": 115589,
+      "name": "B. Sesko"
+    },
+    "assist": {
+      "id": 20589,
+      "name": "B. Mbeumo"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]

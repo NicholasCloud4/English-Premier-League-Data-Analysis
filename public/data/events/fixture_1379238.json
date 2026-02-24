@@ -1,0 +1,200 @@
+[
+  {
+    "time": {
+      "elapsed": 33,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 1243,
+      "name": "Tomáš Souček"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 44,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 6610,
+      "name": "Marcos Senesi"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Foul"
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 129682,
+      "name": "A. Adli"
+    },
+    "assist": {
+      "id": 18870,
+      "name": "D. Brooks"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 1150,
+      "name": "T. Adams"
+    },
+    "assist": {
+      "id": 1125,
+      "name": "R. Christie"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 72,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 1243,
+      "name": "T. Soucek"
+    },
+    "assist": {
+      "id": 2939,
+      "name": "C. Wilson"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 80,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 152856,
+      "name": "Evanilson"
+    },
+    "assist": {
+      "id": 19245,
+      "name": "M. Tavernier"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 84,
+      "extra": null
+    },
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "player": {
+      "id": 326176,
+      "name": "S. Magassa"
+    },
+    "assist": {
+      "id": 401278,
+      "name": "M. Kante"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 89,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 330437,
+      "name": "A. Jimenez"
+    },
+    "assist": {
+      "id": 18869,
+      "name": "A. Smith"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 89,
+      "extra": null
+    },
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "player": {
+      "id": 368030,
+      "name": "E. J. Kroupi"
+    },
+    "assist": {
+      "id": 47499,
+      "name": "E. Unal"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  }
+]
