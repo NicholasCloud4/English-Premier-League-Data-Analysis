@@ -118,7 +118,9 @@ export default function Events() {
                 return (
                     <div className="space-y-4">
                         {/* Scoreboard */}
-                        <div className="bg-gray-900 text-white rounded-xl p-6">
+                        <div className="relative overflow-hidden rounded-2xl p-6 text-white 
+                        bg-linear-to-r from-slate-900 via-slate-800 to-slate-900 
+                        shadow-2xl border border-slate-700">
                             <div className="text-center text-sm text-gray-400 mb-4">
                                 {formatDate(fixture.date)} · {formatTime(fixture.date)} · {fixture.venue.name}, {fixture.venue.city}
                             </div>
