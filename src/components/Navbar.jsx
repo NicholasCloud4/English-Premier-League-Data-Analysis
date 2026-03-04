@@ -11,7 +11,7 @@ export default function Navbar() {
                 {/* Logo / Project Name */}
                 <div className="flex items-center gap-3">
                     <span className="text-2xl font-bold text-[#38003c]">
-                        EPL Data Analysis
+                        EPL Data Analytics
                     </span>
                 </div>
 
