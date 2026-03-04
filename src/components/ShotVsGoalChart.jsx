@@ -91,33 +91,33 @@ export default function ShotsVsGoalsChart({ fixtures = [], selectedTeam }) {
     }, [fixtures, selectedTeam]);
 
     // Pearson correlation — always uses rawX/rawY, never the spread positions
-    const correlation = useMemo(() => {
-        if (data.length < 2) return 0;
+    // const correlation = useMemo(() => {
+    //     if (data.length < 2) return 0;
 
-        const n = data.length;
-        const sumX = data.reduce((s, p) => s + p.rawX, 0);
-        const sumY = data.reduce((s, p) => s + p.rawY, 0);
-        const sumXY = data.reduce((s, p) => s + p.rawX * p.rawY, 0);
-        const sumX2 = data.reduce((s, p) => s + p.rawX * p.rawX, 0);
-        const sumY2 = data.reduce((s, p) => s + p.rawY * p.rawY, 0);
+    //     const n = data.length;
+    //     const sumX = data.reduce((s, p) => s + p.rawX, 0);
+    //     const sumY = data.reduce((s, p) => s + p.rawY, 0);
+    //     const sumXY = data.reduce((s, p) => s + p.rawX * p.rawY, 0);
+    //     const sumX2 = data.reduce((s, p) => s + p.rawX * p.rawX, 0);
+    //     const sumY2 = data.reduce((s, p) => s + p.rawY * p.rawY, 0);
 
-        const numerator = n * sumXY - sumX * sumY;
-        const denominator = Math.sqrt(
-            (n * sumX2 - sumX * sumX) *
-            (n * sumY2 - sumY * sumY)
-        );
+    //     const numerator = n * sumXY - sumX * sumY;
+    //     const denominator = Math.sqrt(
+    //         (n * sumX2 - sumX * sumX) *
+    //         (n * sumY2 - sumY * sumY)
+    //     );
 
-        return denominator === 0 ? 0 : numerator / denominator;
-    }, [data]);
+    //     return denominator === 0 ? 0 : numerator / denominator;
+    // }, [data]);
 
-    const correlationStrength = useMemo(() => {
-        const abs = Math.abs(correlation);
-        if (data.length < 3) return { label: "Insufficient Data", color: "warning" };
-        if (abs > 0.7) return { label: "Strong Correlation", color: "success" };
-        if (abs > 0.4) return { label: "Moderate Correlation", color: "info" };
-        if (abs > 0.2) return { label: "Weak Correlation", color: "warning" };
-        return { label: "Little / No Correlation", color: "error" };
-    }, [correlation, data.length]);
+    // const correlationStrength = useMemo(() => {
+    //     const abs = Math.abs(correlation);
+    //     if (data.length < 3) return { label: "Insufficient Data", color: "warning" };
+    //     if (abs > 0.7) return { label: "Strong Correlation", color: "success" };
+    //     if (abs > 0.4) return { label: "Moderate Correlation", color: "info" };
+    //     if (abs > 0.2) return { label: "Weak Correlation", color: "warning" };
+    //     return { label: "Little / No Correlation", color: "error" };
+    // }, [correlation, data.length]);
 
     const maxX = Math.max(...data.map(d => d.rawX), 5);
     const maxY = Math.max(...data.map(d => d.rawY), 4);
@@ -181,7 +181,7 @@ export default function ShotsVsGoalsChart({ fixtures = [], selectedTeam }) {
                     )}
                 </Box>
 
-                <Stack direction="row" spacing={2} alignItems="center">
+                {/* <Stack direction="row" spacing={2} alignItems="center">
                     <Typography variant="body1">
                         Pearson r: <strong>{correlation.toFixed(2)}</strong>
                     </Typography>
@@ -189,7 +189,7 @@ export default function ShotsVsGoalsChart({ fixtures = [], selectedTeam }) {
                         label={correlationStrength.label}
                         color={correlationStrength.color}
                     />
-                </Stack>
+                </Stack> */}
             </Stack>
         </Paper>
     );

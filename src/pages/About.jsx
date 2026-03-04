@@ -7,7 +7,7 @@ export default function About() {
 
             <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                    Welcome to my English Premier League Data Analysis project! This interactive dashboard was created
+                    Welcome to my English Premier League Data Analysis project! This interactive website was created
                     to explore and visualize key statistics from the English Premier League, offering insights
                     into team performance, player statistics, and match outcomes.
                 </p>
@@ -23,13 +23,12 @@ export default function About() {
                 <p>
                     This project allowed me to tackle real-world challenges in data processing, API integration,
                     and creating interactive user experiences. From collecting and looking at data to designing intuitive
-                    charts, every aspect of this dashboard represents a learning opportunity and a step forward
+                    charts, every aspect of this website represents a learning opportunity and a step forward
                     in my development journey.
                 </p>
 
                 <h2 className="text-2xl font-semibold text-[#38003c] mt-8 mb-4">What You'll Find</h2>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Comprehensive team statistics including goals, assists, and defensive records</li>
                     <li>Fixture-level match data with detailed statistics for each finished game</li>
                     <li>Event timelines for each match (goals, cards, substitutions, and other key moments)</li>
                     <li>Interactive charts and visualizations for easy data exploration</li>
@@ -39,15 +38,14 @@ export default function About() {
                 <h2 className="text-2xl font-semibold text-[#38003c] mt-8 mb-4">My Goals</h2>
                 <p>
                     Through this project, I aimed to demonstrate my ability to work with complex data,
-                    create meaningful visualizations, and build a polished, user-friendly web application.
+                    create meaningful visualizations, and build a polished, user-friendly website.
                     Whether you're a fellow football enthusiast, a recruiter looking at my portfolio, or
-                    someone interested in sports analytics, I hope this dashboard provides valuable insights
+                    someone interested in sports analytics, I hope this project provides valuable insights
                     and showcases the potential of data-driven storytelling in sports.
                 </p>
 
                 <p className="mt-8 pt-6 border-t border-gray-200 text-sm text-gray-600">
-                    <strong>Data Source:</strong> All statistics are sourced from official Premier League APIs
-                    and publicly available datasets. This is an independent project created for educational
+                    <strong>Data Source:</strong> All statistics are sourced from API-FOOTBALL. This is an independent project created for educational
                     and portfolio purposes.
                 </p>
             </div>

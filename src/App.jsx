@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <main className="max-w-6xl mx-auto px-6 py-8">
           <Routes>
-            {/* <Route path="/" element={<Navigate to="/about" replace />} /> */}
+            <Route path="/" element={<Analysis />} />
             <Route path="/analysis" element={<Analysis />} />
             <Route path="/events" element={<Events />} />
             <Route path="/about" element={<About />} />

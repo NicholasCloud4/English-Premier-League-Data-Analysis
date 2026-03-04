@@ -37,7 +37,7 @@ export default function Tools() {
                             <h3 className="font-bold text-gray-900 mb-2">React Router DOM</h3>
                             <p>
                                 React Router DOM handles client-side routing, enabling seamless navigation between different
-                                sections of the dashboard without page refreshes, creating a smooth single-page
+                                sections of the website without page refreshes, creating a smooth
                                 application experience.
                             </p>
                         </div>
@@ -58,11 +58,10 @@ export default function Tools() {
 
                     <div className="space-y-4">
                         <div>
-                            <h3 className="font-bold text-gray-900 mb-2">Chart.js / Recharts</h3>
+                            <h3 className="font-bold text-gray-900 mb-2">Material UI</h3>
                             <p>
-                                Interactive charts and graphs are powered by Chart.js (or Recharts), providing dynamic
-                                visualizations that update in real-time and respond to user interactions. These libraries
-                                make complex statistical data easy to understand at a glance.
+                                The user interface and data visualizations for this project are built entirely using Material UI. Material UI provides a comprehensive set of pre-built, customizable React components that ensure a consistent, responsive, and professional design across the application.
+                                Using components such as Cards, Grids, Typography, Progress indicators, and customized visual elements, statistical data is presented in a clean and structured format. Visual elements like dynamic score rings, color-coded indicators, and structured stat panels allow users to quickly interpret performance metrics.
                             </p>
                         </div>
                     </div>
@@ -85,6 +84,13 @@ export default function Tools() {
                             <p>
                                 Modern JavaScript features like async/await, arrow functions, destructuring, and array
                                 methods are used throughout the codebase for data processing and transformation.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="font-bold text-gray-900 mb-2">API-FOOTBALL</h3>
+                            <p>
+                                All football data used in this project is sourced from API-Football. This API provides access to real-time and historical football data, including fixtures, team statistics, standings, match events, goals, and disciplinary records. It has many other endpoints that can be explored!
                             </p>
                         </div>
                     </div>
@@ -116,7 +122,7 @@ export default function Tools() {
                     <h2 className="text-2xl font-semibold text-[#38003c] mb-4">Why These Technologies?</h2>
                     <p>
                         Each tool was chosen for a specific reason: React for its component reusability and large
-                        ecosystem, Vite for development speed, Tailwind for rapid styling, and Chart.js for
+                        ecosystem, Vite for development speed, Tailwind for rapid styling, and Material UI for
                         powerful yet easy-to-implement visualizations. Together, they create a modern, performant,
                         and maintainable application that showcases both my technical skills and understanding of
                         industry-standard tools.
