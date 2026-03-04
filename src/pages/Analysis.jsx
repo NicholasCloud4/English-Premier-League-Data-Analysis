@@ -51,9 +51,9 @@ export default function Analysis() {
                 selectedTeam={selectedTeam}
             />
 
-            <DisciplineVsLossChart fixtures={fixtures} selectedTeam={selectedTeam} />
-
             <ShotsVsGoalsChart fixtures={fixtures} selectedTeam={selectedTeam} />
+
+            <DisciplineVsLossChart fixtures={fixtures} selectedTeam={selectedTeam} />
         </Box>
     );
 }

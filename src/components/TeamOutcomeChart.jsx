@@ -111,6 +111,15 @@ export default function TeamOutcomeChart({ fixtures, selectedTeam }) {
                         %
                     </strong>
                 </Typography>
+                <Typography variant="body2">
+                    Away Win Rate:{" "}
+                    <strong>
+                        {stats.totalPlayed
+                            ? ((stats.awayWins / stats.totalPlayed) * 100).toFixed(1)
+                            : 0}
+                        %
+                    </strong>
+                </Typography>
             </Box>
         </Paper>
     );

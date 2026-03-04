@@ -96,7 +96,7 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
         <Box sx={{ mt: 4 }}>
             <Paper elevation={3} sx={{ p: 3 }}>
                 <Typography variant="h6" align="center" sx={{ fontWeight: 'bold' }}>
-                    Discipline Score vs. Points Earned
+                    {selectedTeam} - Discipline Score vs. Points Earned
                 </Typography>
 
                 <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
