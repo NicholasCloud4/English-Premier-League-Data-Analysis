@@ -96,14 +96,14 @@ export default function DisciplineVsLossChart({ fixtures = [], selectedTeam }) {
         <Box sx={{ mt: 4 }}>
             <Paper elevation={3} sx={{ p: 3 }}>
                 <Typography variant="h6" align="center" sx={{ fontWeight: 'bold' }}>
-                    {selectedTeam} - Discipline Score vs. Points Earned
+                    {selectedTeam} - Discipline Score vs. Match Outcome
                 </Typography>
 
-                <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
+                {/* <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
                     <Chip size="small" label="Win = 3pts" color="success" variant="outlined" />
                     <Chip size="small" label="Draw = 1pt" color="primary" variant="outlined" />
                     <Chip size="small" label="Loss = 0pts" color="error" variant="outlined" />
-                </Stack>
+                </Stack> */}
 
                 <ScatterChart
                     height={400}
