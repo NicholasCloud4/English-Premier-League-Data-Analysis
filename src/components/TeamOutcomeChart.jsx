@@ -63,6 +63,8 @@ export default function TeamOutcomeChart({ fixtures, selectedTeam }) {
             homeWins,
             awayWins,
             draws,
+            homeLosses,
+            awayLosses,
         };
     }, [fixtures, selectedTeam]);
 
@@ -120,6 +122,26 @@ export default function TeamOutcomeChart({ fixtures, selectedTeam }) {
                         %
                     </strong>
                 </Typography>
+                <Typography variant="body2">
+                    Draw Rate:{" "}
+                    <strong>
+                        {stats.totalPlayed
+                            ? ((stats.draws / stats.totalPlayed) * 100).toFixed(1)
+                            : 0}
+                        %
+                    </strong>
+                </Typography>
+                {selectedTeam && (
+                    <Typography variant="body2">
+                        Loss Rate:{" "}
+                        <strong>
+                            {stats.totalPlayed
+                                ? (((stats.homeLosses + stats.awayLosses) / stats.totalPlayed) * 100).toFixed(1)
+                                : 0}
+                            %
+                        </strong>
+                    </Typography>
+                )}
             </Box>
         </Paper>
     );
