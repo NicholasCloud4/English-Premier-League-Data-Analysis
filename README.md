@@ -1,16 +1,34 @@
-# React + Vite
+# EPL Data Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive dashboard exploring English Premier League match data.
 
-Currently, two official plugins are available:
+**Live site:** https://epl-data-analytics.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What it answers
 
-## React Compiler
+- **Is home advantage real?** League-wide home wins vs away wins vs draws, with win rates.
+- **Do more shots on goal mean more goals?** A scatter plot of every match, filterable by team.
+- **Does discipline cost points?** For a selected team, cards (yellow = 1, red = 3) plotted against points earned, with a trend line.
+- **What happened in a match?** Pick a fixture to see its match statistics and an event timeline of goals, cards and substitutions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The dataset covers 51 Premier League fixtures (24 Jan – 23 Feb 2026) across all 20 teams.
 
-## Expanding the ESLint configuration
+## Built with
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 + Vite
+- React Router
+- Material UI and MUI X Charts
+- Chart.js
+- Tailwind CSS
+
+## Running locally
+
+```bash
+npm install
+npm run dev     # http://localhost:5173
+npm run build   # production build
+```
+
+## Data
+
+Match data comes from [API-FOOTBALL](https://www.api-football.com/) and is stored as static JSON in `public/data/`, so the app needs no API key to run. This is an independent project made for learning and portfolio purposes.
